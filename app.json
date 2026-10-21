@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Zharph UI",
+    "slug": "zharph-ui",
+    "scheme": "zharphui",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Zharph UI to choose a photo for the wallpaper preview."
+        }
+      ],
+      "./modules/zharph-wallpaper/plugin"
+    ]
+  }
+}
